@@ -1,0 +1,225 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #8DA891;
+    padding: 40px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    background: #DEFAFF;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* Main content */
+.main-content {
+    padding: 88px;
+    
+}
+
+/* About me */
+.my-profession {
+    padding-bottom: 40px;
+    font-family: 'Caveat', cursive;
+    font-size: 27px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+.project-item {
+    
+}
+
+/* Sidebar */
+.sidebar {
+    width: 370px;
+    background:#54BF8A;
+}
+
+.my-photo {
+    margin-top: 40px;
+    border: 1px solid black;
+    border-radius: 20%;
+    padding: 10px;
+}
+.my-photo {
+    animation: rotate 1s;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: scaleX(1);
+    }
+    100% {
+      transform: scaleX(-1);
+    }
+  }
+  
+.contacts-container,
+.tech-skills-container,
+.soft-skills-container {
+    margin-top: 48px;
+    margin-left: 40px;
+
+}
+
+.sidebar-title {
+    font-family: 'Luckiest Guy', cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 27px;
+    color: #141820;
+    margin-bottom: 8px;
+    letter-spacing: 1px;
+}
+
+.contacts-type {
+    font-family: 'Luckiest Guy', cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 24px;
+    color: #141820;
+    margin-right: 4px;
+
+}
+
+.contacts-item {
+    margin: 0;
+}
+
+.contacts-number {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 24px;
+    color: #161D2A;
+    font-family: 'Fasthand', cursive;
+   
+
+}
+
+.contacts-email {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 24px;
+    color: #2979FF;
+    font-family: 'Fasthand', cursive;
+    color: inherit;
+    letter-spacing: 1px;
+}
+
+/* Skills */
+.skills-list {
+    margin: 0;
+    padding: 0 0 0 12px;
+}
+
+.skills-list-item {
+    color: #165414;
+}
+
+.skills-list-text {
+    color: #161D2A;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    font-family: 'Fasthand', cursive;
+    letter-spacing: 1px;
+}
+.main-title{
+    font-family: 'Luckiest Guy', cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 27px;
+    color: #141820;
+    margin-bottom: 8px;
+    letter-spacing: 2px;
+}
+.main-title-item{
+    font-family: 'Luckiest Guy', cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 27px;
+    color: #141820;
+    margin-bottom: 8px;
+    letter-spacing: 2px;
+}
+.main-title-item {
+    overflow: hidden; /* Приховуємо непотрібний текст */
+    white-space: nowrap; /* Запобігаємо перенесенню тексту */
+    animation: typing 2s steps(40);
+  }
+  
+  @keyframes typing {
+    0% {
+      width: 0
+    }
+    100% {
+      width: 100%;
+    }
+}
+.Projects-item{
+    font-family: 'Luckiest Guy', cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 27px;
+    color: #141820;
+    margin-bottom: 8px;
+    letter-spacing: 1px;
+}
+.social{
+    margin-top: 10px;
+    margin-left: 45px;
+    
+}
+.social li{
+    
+    display: inline;
+    margin-bottom: 5px; 
+}
+.social li img{
+    margin-right: 10px; /* Задати відступ справа між фото */
+ 
+}
+.social li img:hover{
+    opacity: 0.5;
+ 
+}
+.company-title-item{
+    
+    font-family: 'IBM Plex Mono', monospace;
+    margin: 0;
+}
+.company-title-item-p{
+  
+    font-size: 12px;
+    font-family: 'IBM Plex Mono', monospace;
+    margin-top: 0;
+    text-decoration: underline;
+}
+.company-title-item-h5{
+    font-family: 'IBM Plex Mono', monospace;
+    margin: 3px;
+    
+
+}
+/* company */
+.skills-list-text-company {
+    color: #161D2A;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    font-family: 'Caveat', cursive;
+  
+}
